@@ -3,15 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sortArrayBySecondElement", "sortArrayBySecondElement\sortArrayBySecondElement.csproj", "{FC5EE6E0-7ECA-41C6-B368-189F75157799}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sortArrayBySecondElement", "sortArrayBySecondElement\sortArrayBySecondElement.csproj", "{FC5EE6E0-7ECA-41C6-B368-189F75157799}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcatenationArray1929", "ConcatenationArray1929\ConcatenationArray1929.csproj", "{6557E04A-3AFA-4B54-A975-AD5BD5385FFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcatenationArray1929", "ConcatenationArray1929\ConcatenationArray1929.csproj", "{6557E04A-3AFA-4B54-A975-AD5BD5385FFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildArrayFromPermutation1920", "BuildArrayFromPermutation\BuildArrayFromPermutation1920.csproj", "{551681C2-53B5-4EAB-B82A-FE37C0CB9755}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildArrayFromPermutation1920", "BuildArrayFromPermutation\BuildArrayFromPermutation1920.csproj", "{551681C2-53B5-4EAB-B82A-FE37C0CB9755}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfGoodPairs1512", "NumberOfGoodPairs1512\NumberOfGoodPairs1512.csproj", "{6EBAA64E-E1BA-482C-B3DF-8CAE170AAFDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOfGoodPairs1512", "NumberOfGoodPairs1512\NumberOfGoodPairs1512.csproj", "{6EBAA64E-E1BA-482C-B3DF-8CAE170AAFDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalValueOfVariableAfterPerformingOperations2011", "FinalValueOfVariableAfterPerformingOperations2011\FinalValueOfVariableAfterPerformingOperations2011.csproj", "{E9D9B954-93B4-475F-94F4-537D090C14FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinalValueOfVariableAfterPerformingOperations2011", "FinalValueOfVariableAfterPerformingOperations2011\FinalValueOfVariableAfterPerformingOperations2011.csproj", "{E9D9B954-93B4-475F-94F4-537D090C14FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuffleTheArray1470", "ShuffleTheArray1470\ShuffleTheArray1470.csproj", "{407064A6-E588-46BA-AFF2-1A525A4B0278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindWordsContainingCharacter2942", "FindWordsContainingCharacter2942\FindWordsContainingCharacter2942.csproj", "{5521E7F5-43A8-4483-84E7-984C960BC59A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WidestVerticalAreaBetweenTwoPointsContainigNoPoints1637", "WidestVerticalAreaBetweenTwoPointsContainigNoPoints1637\WidestVerticalAreaBetweenTwoPointsContainigNoPoints1637.csproj", "{82B0CEB2-2C6B-46DE-B5B4-FCE057BD013C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichestCustomerWealth1672", "RichestCustomerWealth1672\RichestCustomerWealth1672.csproj", "{49A86031-1CC9-49F7-AE79-178F8CA02AEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{E9D9B954-93B4-475F-94F4-537D090C14FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9D9B954-93B4-475F-94F4-537D090C14FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9D9B954-93B4-475F-94F4-537D090C14FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407064A6-E588-46BA-AFF2-1A525A4B0278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407064A6-E588-46BA-AFF2-1A525A4B0278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407064A6-E588-46BA-AFF2-1A525A4B0278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407064A6-E588-46BA-AFF2-1A525A4B0278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5521E7F5-43A8-4483-84E7-984C960BC59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5521E7F5-43A8-4483-84E7-984C960BC59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5521E7F5-43A8-4483-84E7-984C960BC59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5521E7F5-43A8-4483-84E7-984C960BC59A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B0CEB2-2C6B-46DE-B5B4-FCE057BD013C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B0CEB2-2C6B-46DE-B5B4-FCE057BD013C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B0CEB2-2C6B-46DE-B5B4-FCE057BD013C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B0CEB2-2C6B-46DE-B5B4-FCE057BD013C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A86031-1CC9-49F7-AE79-178F8CA02AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A86031-1CC9-49F7-AE79-178F8CA02AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A86031-1CC9-49F7-AE79-178F8CA02AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A86031-1CC9-49F7-AE79-178F8CA02AEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
