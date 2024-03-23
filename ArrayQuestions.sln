@@ -21,13 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WidestVerticalAreaBetweenTw
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RichestCustomerWealth1672", "RichestCustomerWealth1672\RichestCustomerWealth1672.csproj", "{49A86031-1CC9-49F7-AE79-178F8CA02AEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfEmployessWhoMetTheTarget2798", "NumberOfEmployessWhoMetTheTarget2798\NumberOfEmployessWhoMetTheTarget2798.csproj", "{C7903123-9C61-434B-A82A-41034C13B223}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOfEmployessWhoMetTheTarget2798", "NumberOfEmployessWhoMetTheTarget2798\NumberOfEmployessWhoMetTheTarget2798.csproj", "{C7903123-9C61-434B-A82A-41034C13B223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeInDiagonal2614", "PrimeInDiagonal2614\PrimeInDiagonal2614.csproj", "{A9236C48-E54F-4B24-9B20-53F278A56E31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeInDiagonal2614", "PrimeInDiagonal2614\PrimeInDiagonal2614.csproj", "{A9236C48-E54F-4B24-9B20-53F278A56E31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KidsWithTheGreatestNumberOfCandies1431", "KidsWithTheGreatestNumberOfCandies1431\KidsWithTheGreatestNumberOfCandies1431.csproj", "{4C671F68-301D-46ED-A660-B923559C336E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KidsWithTheGreatestNumberOfCandies1431", "KidsWithTheGreatestNumberOfCandies1431\KidsWithTheGreatestNumberOfCandies1431.csproj", "{4C671F68-301D-46ED-A660-B923559C336E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectPatternOfLenghtMRepeatedKorMoreTimes1566", "DetectPatternOfLenghtMRepeatedKorMoreTimes1566\DetectPatternOfLenghtMRepeatedKorMoreTimes1566.csproj", "{826AEF85-5800-4694-9F24-08857F4B1E9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DetectPatternOfLenghtMRepeatedKorMoreTimes1566", "DetectPatternOfLenghtMRepeatedKorMoreTimes1566\DetectPatternOfLenghtMRepeatedKorMoreTimes1566.csproj", "{826AEF85-5800-4694-9F24-08857F4B1E9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountPairsWhoseSumİsLessThanTarger2824", "CountPairsWhoseSumİsLessThanTarger2824\CountPairsWhoseSumİsLessThanTarger2824.csproj", "{73CF650B-20E3-4EFA-8364-4DE5594603AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{826AEF85-5800-4694-9F24-08857F4B1E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{826AEF85-5800-4694-9F24-08857F4B1E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{826AEF85-5800-4694-9F24-08857F4B1E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73CF650B-20E3-4EFA-8364-4DE5594603AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CF650B-20E3-4EFA-8364-4DE5594603AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CF650B-20E3-4EFA-8364-4DE5594603AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CF650B-20E3-4EFA-8364-4DE5594603AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
