@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumSumWithExactlyKEleme
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckİfArrayIsGood2784", "CheckİfArrayIsGood2784\CheckİfArrayIsGood2784.csproj", "{2B70895E-1A23-49D5-91F5-01D1411947A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxPairSumInAnArray2815", "MazPairSumInAnArray2815\MaxPairSumInAnArray2815.csproj", "{9CC53981-8C3C-4097-A72D-441D2B18892B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxPairSumInAnArray2815", "MazPairSumInAnArray2815\MaxPairSumInAnArray2815.csproj", "{9CC53981-8C3C-4097-A72D-441D2B18892B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunningSumOf1dArray1480", "RunningSumOf1dArray\RunningSumOf1dArray1480.csproj", "{77BDCC25-76B9-450B-B81F-3B032E28F606}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{9CC53981-8C3C-4097-A72D-441D2B18892B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CC53981-8C3C-4097-A72D-441D2B18892B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CC53981-8C3C-4097-A72D-441D2B18892B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77BDCC25-76B9-450B-B81F-3B032E28F606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BDCC25-76B9-450B-B81F-3B032E28F606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BDCC25-76B9-450B-B81F-3B032E28F606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BDCC25-76B9-450B-B81F-3B032E28F606}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
