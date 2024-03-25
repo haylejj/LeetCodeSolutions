@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowManyNumbersAreSmallerTha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumNumberOfWordsFoundInSentences2114", "MaximumNumberOfWordsFoundInSentences2114\MaximumNumberOfWordsFoundInSentences2114.csproj", "{73DA1818-CA90-4CBF-81F7-6C61655EB521}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfValidWordsInASentence2047", "NumberOfValidWordsInASentence2047\NumberOfValidWordsInASentence2047.csproj", "{57AB8DD2-BDF4-46CD-BAB4-F89AC853F540}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{73DA1818-CA90-4CBF-81F7-6C61655EB521}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73DA1818-CA90-4CBF-81F7-6C61655EB521}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73DA1818-CA90-4CBF-81F7-6C61655EB521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57AB8DD2-BDF4-46CD-BAB4-F89AC853F540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57AB8DD2-BDF4-46CD-BAB4-F89AC853F540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57AB8DD2-BDF4-46CD-BAB4-F89AC853F540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57AB8DD2-BDF4-46CD-BAB4-F89AC853F540}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
