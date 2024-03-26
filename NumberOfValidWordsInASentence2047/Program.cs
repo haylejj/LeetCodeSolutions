@@ -6,7 +6,23 @@ class Program
 
     static void Main(string[] args)
     {
-        Console.WriteLine(CountValidWords("!this  1-s b8d! "));
+        Console.WriteLine(CountValidWords("a-!b"));
+    }
+    
+    public static int CountValidWords(string sentence)
+    {
+        string[] tokens = sentence.Split(' ',StringSplitOptions.RemoveEmptyEntries);
+        int validCount = 0;
+
+        foreach (string token in tokens)
+        {
+            if (IsValidWord(token))
+            {
+                validCount++;
+            }
+        }
+
+        return validCount;
     }
     /*
       A sentence consists of lowercase letters ('a' to 'z'), digits ('0' to '9'), hyphens ('-'), punctuation marks ('!', '.', and ','), and spaces (' ') only. 
@@ -20,65 +36,68 @@ class Program
 
      Given a string sentence, return the number of valid words in sentence.
      */
-    public static int CountValidWords(string sentence)
-    {
-        string[] tokens = sentence.Split(' ');
-        int validCount = 0;
-
-        foreach (string token in tokens)
-        {
-            if (IsValidWord(token))
-            {
-                validCount++;
-            }
-        }
-
-        return validCount;
-    }
-
     public static bool IsValidWord(string word)
     {
-        bool hasLetter = false;
-        bool hasPunctuation = false;
-        bool hasHyphen=false;
+        int countHyphen = 0;
+        int countPunctuation = 0;
+
+        // No digits and uppercase letters allowed in a valid word
+        if (word.Any(x=> char.IsDigit(x) || char.IsUpper(x)))
+        {
+            return false; 
+        }
+
         for (int i = 0; i < word.Length; i++)
         {
             char c = word[i];
+            if(c == '-' )
+            {
 
-            if (char.IsLetter(c))
-            {
-                hasLetter = true; // Set hasLetter upon encountering a letter
-            }
-            else if (char.IsPunctuation(c))
-            {
-                if (hasPunctuation || i != word.Length - 1) // Check punctuation at the end only
+                if (countHyphen ==0)
                 {
-                    return false;
+                    countHyphen++;
+                    if (i+1 < word.Length && i >0)
+                    {
+                        if (!char.IsLetter(word[i-1])&&char.IsLetter(word[i+1])) return false;
+                        // tire işaretine bi daha kontrol eklenebilir
+                        
+                    }
+                    else
+                    {
+                        if (i==word.Length-1) return false;
+                        else if (word.Length==1) return false;
+                        
+                    }
                 }
-                hasPunctuation = true;
+                else return false;
+                
             }
-            else if (c == '-')
+
+            else if (char.IsPunctuation(word[i]) )
             {
-                if (hasHyphen || i == 0 || i == word.Length - 1 || !char.IsLetter(word[i - 1]) || !char.IsLetter(word[i + 1])) // Check hyphen between letters
-                {
+                
+                    if (countPunctuation == 0)
+                    {
+                            countPunctuation++;
+                            if (i+1 < word.Length && i >0)
+                            {
+                                if (char.IsLetter(word[i-1])&&char.IsLetter(word[i+1])) return false;
+                                else if (word[i+1] ==  '-' || word[i-1]=='-') return false;
+                                // tire işaretine bi daha kontrol eklenebilir
+                                else return true;
+                            }
+                            else
+                            {
+                                if (i==word.Length-1) return true;
+                                else if (word.Length==1) return true;
+                                else return false;
+                            }
+                    }
+                    else 
                     return false;
-                }
-                hasHyphen = true;
+                
             }
         }
-
-        // Additional check for digits
-        if (word.Any(char.IsDigit))
-        {
-            return false; // No digits allowed in a valid word
-        }
-
-        // Special case for compound words with hyphen
-        if (hasHyphen && word.Length > 1)
-        {
-            return true;
-        }
-
-        return hasLetter; // Return true only if there's at least one letter
+        return true;
     }
 }
