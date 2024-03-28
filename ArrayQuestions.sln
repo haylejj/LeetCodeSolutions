@@ -59,6 +59,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecompressRunLengthEncodedL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumNumberGame2974", "MinimumNumberGame2974\MinimumNumberGame2974.csproj", "{B82ABADC-2D21-4978-9ABD-61449BE5D657}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckIfTwoStringArraysAreEquivalent1662", "CheckIfTwoStringArraysAreEquivalent1662\CheckIfTwoStringArraysAreEquivalent1662.csproj", "{B48BADB7-F2E5-491C-94BA-B27C8BC65E12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountItemsMatchingARule1773", "CountItemsMatchingARule1773\CountItemsMatchingARule1773.csproj", "{FDA26B29-D3DA-4C61-9DD9-F13FB458F72B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +181,14 @@ Global
 		{B82ABADC-2D21-4978-9ABD-61449BE5D657}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B82ABADC-2D21-4978-9ABD-61449BE5D657}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B82ABADC-2D21-4978-9ABD-61449BE5D657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48BADB7-F2E5-491C-94BA-B27C8BC65E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48BADB7-F2E5-491C-94BA-B27C8BC65E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48BADB7-F2E5-491C-94BA-B27C8BC65E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48BADB7-F2E5-491C-94BA-B27C8BC65E12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA26B29-D3DA-4C61-9DD9-F13FB458F72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA26B29-D3DA-4C61-9DD9-F13FB458F72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA26B29-D3DA-4C61-9DD9-F13FB458F72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA26B29-D3DA-4C61-9DD9-F13FB458F72B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
