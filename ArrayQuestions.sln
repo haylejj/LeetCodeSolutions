@@ -51,9 +51,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumRightShiftsToSortThe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecodeXORedArray1720", "DecodeXORedArray1720\DecodeXORedArray1720.csproj", "{5372EE7F-2381-4A98-8534-AF3812624734}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftAndRightSumDifferences2574", "LeftAndRightSumDifferences2574\LeftAndRightSumDifferences2574.csproj", "{F649F043-2145-4326-A102-110F70FB8C2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeftAndRightSumDifferences2574", "LeftAndRightSumDifferences2574\LeftAndRightSumDifferences2574.csproj", "{F649F043-2145-4326-A102-110F70FB8C2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateTargetArrayInTheGivenOrder1389", "CreateTargetArrayInTheGivenOrder1389\CreateTargetArrayInTheGivenOrder1389.csproj", "{CAD79A96-183F-4F7E-9161-73CBD9D71EC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateTargetArrayInTheGivenOrder1389", "CreateTargetArrayInTheGivenOrder1389\CreateTargetArrayInTheGivenOrder1389.csproj", "{CAD79A96-183F-4F7E-9161-73CBD9D71EC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecompressRunLengthEncodedList1313", "DecompressRunLengthEncodedList1313\DecompressRunLengthEncodedList1313.csproj", "{69D34D67-CC08-4F09-8634-42BD8E4523B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumNumberGame2974", "MinimumNumberGame2974\MinimumNumberGame2974.csproj", "{B82ABADC-2D21-4978-9ABD-61449BE5D657}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +169,14 @@ Global
 		{CAD79A96-183F-4F7E-9161-73CBD9D71EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAD79A96-183F-4F7E-9161-73CBD9D71EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAD79A96-183F-4F7E-9161-73CBD9D71EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D34D67-CC08-4F09-8634-42BD8E4523B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D34D67-CC08-4F09-8634-42BD8E4523B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D34D67-CC08-4F09-8634-42BD8E4523B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D34D67-CC08-4F09-8634-42BD8E4523B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82ABADC-2D21-4978-9ABD-61449BE5D657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82ABADC-2D21-4978-9ABD-61449BE5D657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82ABADC-2D21-4978-9ABD-61449BE5D657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82ABADC-2D21-4978-9ABD-61449BE5D657}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
