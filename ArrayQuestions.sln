@@ -55,13 +55,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeftAndRightSumDifferences2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateTargetArrayInTheGivenOrder1389", "CreateTargetArrayInTheGivenOrder1389\CreateTargetArrayInTheGivenOrder1389.csproj", "{CAD79A96-183F-4F7E-9161-73CBD9D71EC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecompressRunLengthEncodedList1313", "DecompressRunLengthEncodedList1313\DecompressRunLengthEncodedList1313.csproj", "{69D34D67-CC08-4F09-8634-42BD8E4523B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecompressRunLengthEncodedList1313", "DecompressRunLengthEncodedList1313\DecompressRunLengthEncodedList1313.csproj", "{69D34D67-CC08-4F09-8634-42BD8E4523B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumNumberGame2974", "MinimumNumberGame2974\MinimumNumberGame2974.csproj", "{B82ABADC-2D21-4978-9ABD-61449BE5D657}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumNumberGame2974", "MinimumNumberGame2974\MinimumNumberGame2974.csproj", "{B82ABADC-2D21-4978-9ABD-61449BE5D657}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckIfTwoStringArraysAreEquivalent1662", "CheckIfTwoStringArraysAreEquivalent1662\CheckIfTwoStringArraysAreEquivalent1662.csproj", "{B48BADB7-F2E5-491C-94BA-B27C8BC65E12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckIfTwoStringArraysAreEquivalent1662", "CheckIfTwoStringArraysAreEquivalent1662\CheckIfTwoStringArraysAreEquivalent1662.csproj", "{B48BADB7-F2E5-491C-94BA-B27C8BC65E12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountItemsMatchingARule1773", "CountItemsMatchingARule1773\CountItemsMatchingARule1773.csproj", "{FDA26B29-D3DA-4C61-9DD9-F13FB458F72B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountItemsMatchingARule1773", "CountItemsMatchingARule1773\CountItemsMatchingARule1773.csproj", "{FDA26B29-D3DA-4C61-9DD9-F13FB458F72B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestLocalValueMatrix2373", "LargestLocalValueMatrix2373\LargestLocalValueMatrix2373\LargestLocalValueMatrix2373.csproj", "{1F9FB244-E4EF-4D5B-966C-45D57B2CEB4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +191,10 @@ Global
 		{FDA26B29-D3DA-4C61-9DD9-F13FB458F72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDA26B29-D3DA-4C61-9DD9-F13FB458F72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDA26B29-D3DA-4C61-9DD9-F13FB458F72B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F9FB244-E4EF-4D5B-966C-45D57B2CEB4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F9FB244-E4EF-4D5B-966C-45D57B2CEB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F9FB244-E4EF-4D5B-966C-45D57B2CEB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F9FB244-E4EF-4D5B-966C-45D57B2CEB4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
