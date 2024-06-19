@@ -47,4 +47,33 @@
         }
         return max;
     }
+    /*
+     public  int[][] LargestLocal(int[][] grid)
+{
+    int n = grid.Length-2;
+    int[][] result = new int[n][];
+    for (int i = 0; i<n; i++)
+    {
+        result[i]=new int[n];
+        for (int j = 0; j<n; j++)
+        {
+            result[i][j]=FindMax(grid, i, j);
+        }
+    }
+    return result;
+}
+private  int FindMax(int[][] grid, int row, int col)
+{
+    int max = int.MinValue;
+    for (int i = row; i<row+3; i++)
+    {
+        for (int j = col; j<col+3; j++)
+        {
+            max=Math.Max(max, grid[i][j]);
+        }
+    }
+    return max;
+} 
+     
+     */
 }
