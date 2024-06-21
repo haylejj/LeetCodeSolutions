@@ -65,9 +65,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountItemsMatchingARule1773
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LargestLocalValueMatrix2373", "LargestLocalValueMatrix2373\LargestLocalValueMatrix2373\LargestLocalValueMatrix2373.csproj", "{1F9FB244-E4EF-4D5B-966C-45D57B2CEB4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfAllSubsetXORTotal1863", "SumOfAllSubsetXORTotal1863\SumOfAllSubsetXORTotal1863\SumOfAllSubsetXORTotal1863.csproj", "{DBC792C8-D0EE-46E1-9D0A-ADB019AF6B2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfAllSubsetXORTotal1863", "SumOfAllSubsetXORTotal1863\SumOfAllSubsetXORTotal1863\SumOfAllSubsetXORTotal1863.csproj", "{DBC792C8-D0EE-46E1-9D0A-ADB019AF6B2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumNumberOfMovesToSeat2037", "MinimumNumberOfMovesToSeat2037\MinimumNumberOfMovesToSeat2037\MinimumNumberOfMovesToSeat2037.csproj", "{FFDAD37C-B3FF-4F1C-A7FD-F08A2C5E3FD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumNumberOfMovesToSeat2037", "MinimumNumberOfMovesToSeat2037\MinimumNumberOfMovesToSeat2037\MinimumNumberOfMovesToSeat2037.csproj", "{FFDAD37C-B3FF-4F1C-A7FD-F08A2C5E3FD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheNumberOfGoodPairsI_3162", "FindTheNumberOfGoodPairsI_3162\FindTheNumberOfGoodPairsI_3162\FindTheNumberOfGoodPairsI_3162.csproj", "{A8C2B5BA-AC0E-45C2-B448-50F273996887}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumToExceedThresholdValue1_3065", "MinimumToExceedThresholdValue1_3065\MinimumToExceedThresholdValue1_3065\MinimumToExceedThresholdValue1_3065.csproj", "{A4E6EDAF-41BB-485B-8581-A4ABCBE5621D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +211,14 @@ Global
 		{FFDAD37C-B3FF-4F1C-A7FD-F08A2C5E3FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFDAD37C-B3FF-4F1C-A7FD-F08A2C5E3FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFDAD37C-B3FF-4F1C-A7FD-F08A2C5E3FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8C2B5BA-AC0E-45C2-B448-50F273996887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C2B5BA-AC0E-45C2-B448-50F273996887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C2B5BA-AC0E-45C2-B448-50F273996887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C2B5BA-AC0E-45C2-B448-50F273996887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E6EDAF-41BB-485B-8581-A4ABCBE5621D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E6EDAF-41BB-485B-8581-A4ABCBE5621D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E6EDAF-41BB-485B-8581-A4ABCBE5621D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E6EDAF-41BB-485B-8581-A4ABCBE5621D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
