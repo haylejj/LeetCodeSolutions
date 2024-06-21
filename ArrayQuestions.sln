@@ -69,9 +69,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfAllSubsetXORTotal1863"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumNumberOfMovesToSeat2037", "MinimumNumberOfMovesToSeat2037\MinimumNumberOfMovesToSeat2037\MinimumNumberOfMovesToSeat2037.csproj", "{FFDAD37C-B3FF-4F1C-A7FD-F08A2C5E3FD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheNumberOfGoodPairsI_3162", "FindTheNumberOfGoodPairsI_3162\FindTheNumberOfGoodPairsI_3162\FindTheNumberOfGoodPairsI_3162.csproj", "{A8C2B5BA-AC0E-45C2-B448-50F273996887}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindTheNumberOfGoodPairsI_3162", "FindTheNumberOfGoodPairsI_3162\FindTheNumberOfGoodPairsI_3162\FindTheNumberOfGoodPairsI_3162.csproj", "{A8C2B5BA-AC0E-45C2-B448-50F273996887}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumToExceedThresholdValue1_3065", "MinimumToExceedThresholdValue1_3065\MinimumToExceedThresholdValue1_3065\MinimumToExceedThresholdValue1_3065.csproj", "{A4E6EDAF-41BB-485B-8581-A4ABCBE5621D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumToExceedThresholdValue1_3065", "MinimumToExceedThresholdValue1_3065\MinimumToExceedThresholdValue1_3065\MinimumToExceedThresholdValue1_3065.csproj", "{A4E6EDAF-41BB-485B-8581-A4ABCBE5621D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruncateSentence1816", "TruncateSentence1816\TruncateSentence1816\TruncateSentence1816.csproj", "{80761C95-EA20-4540-A5B3-3AD5B7D82B1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuffleString1528", "ShuffleString1528\ShuffleString1528\ShuffleString1528.csproj", "{640C9BA3-A684-4BB7-AFF1-ECFF2640160A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +223,14 @@ Global
 		{A4E6EDAF-41BB-485B-8581-A4ABCBE5621D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4E6EDAF-41BB-485B-8581-A4ABCBE5621D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4E6EDAF-41BB-485B-8581-A4ABCBE5621D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80761C95-EA20-4540-A5B3-3AD5B7D82B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80761C95-EA20-4540-A5B3-3AD5B7D82B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80761C95-EA20-4540-A5B3-3AD5B7D82B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80761C95-EA20-4540-A5B3-3AD5B7D82B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{640C9BA3-A684-4BB7-AFF1-ECFF2640160A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640C9BA3-A684-4BB7-AFF1-ECFF2640160A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{640C9BA3-A684-4BB7-AFF1-ECFF2640160A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{640C9BA3-A684-4BB7-AFF1-ECFF2640160A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
